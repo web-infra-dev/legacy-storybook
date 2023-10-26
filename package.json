@@ -15,7 +15,7 @@
     "modern",
     "modern.js"
   ],
-  "version": "2.35.0",
+  "version": "2.38.0",
   "jsnext:source": "./src/index.ts",
   "types": "./src/index.ts",
   "main": "./dist/cjs/index.js",
@@ -47,11 +47,11 @@
     "dev": "modern build --watch"
   },
   "dependencies": {
-    "@modern-js/builder": "2.35.1",
-    "@modern-js/builder-plugin-node-polyfill": "2.35.1",
-    "@modern-js/builder-shared": "2.35.1",
-    "@modern-js/builder-webpack-provider": "2.35.1",
-    "@modern-js/utils": "2.35.1",
+    "@modern-js/builder": "2.38.0",
+    "@modern-js/builder-plugin-node-polyfill": "2.38.0",
+    "@modern-js/builder-shared": "2.38.0",
+    "@modern-js/builder-webpack-provider": "2.38.0",
+    "@modern-js/utils": "2.38.0",
     "@storybook/addon-actions": "6.5.12",
     "@storybook/addon-essentials": "6.5.12",
     "@storybook/addon-links": "6.5.12",
@@ -70,10 +70,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.15",
-    "@modern-js/module-tools": "2.35.1",
-    "@modern-js/runtime": "2.35.1",
-    "@modern-js/tsconfig": "^2.35.1",
-    "@modern-js/types": "2.35.1",
+    "@modern-js/module-tools": "2.38.0",
+    "@modern-js/runtime": "2.38.0",
+    "@modern-js/tsconfig": "^2.38.0",
+    "@modern-js/types": "2.38.0",
     "@storybook/addons": "^6.3.7",
     "@swc/jest": "^0.2.29",
     "@types/findup-sync": "^4.0.1",
@@ -90,8 +90,8 @@
     "webpack": "^5.88.1"
   },
   "peerDependencies": {
-    "@modern-js/plugin-router-v5": "^2.35.0",
-    "@modern-js/runtime": "^2.35.0",
+    "@modern-js/plugin-router-v5": "^2.38.0",
+    "@modern-js/runtime": "^2.38.0",
     "react": ">=17",
     "react-dom": ">=17"
   },
