@@ -90,8 +90,8 @@
     "webpack": "^5.88.1"
   },
   "peerDependencies": {
-    "@modern-js/plugin-router-v5": "^2.35.0",
-    "@modern-js/runtime": "^2.35.0",
+    "@modern-js/plugin-router-v5": "^2.38.0",
+    "@modern-js/runtime": "^2.38.0",
     "react": ">=17",
     "react-dom": ">=17"
   },
