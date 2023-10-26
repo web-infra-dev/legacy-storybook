@@ -18,8 +18,8 @@ dependencies:
     specifier: 2.38.0
     version: 2.38.0(@swc/core@1.3.92)(esbuild@0.17.19)(react-dom@18.0.0)(react@18.0.0)(styled-components@5.3.11)(typescript@5.0.2)
   '@modern-js/plugin-router-v5':
-    specifier: ^2.35.0
-    version: 2.35.0(react-dom@18.0.0)(react@18.0.0)
+    specifier: ^2.38.0
+    version: 2.38.0(react-dom@18.0.0)(react@18.0.0)
   '@modern-js/utils':
     specifier: 2.38.0
     version: 2.38.0
@@ -4566,15 +4566,15 @@ packages:
       - supports-color
     dev: true
 
-  /@modern-js/plugin-router-v5@2.35.0(react-dom@18.0.0)(react@18.0.0):
-    resolution: {integrity: sha512-qzrT822UfxQi8Vs5dFU98ntuvY+/yvlQhT3CsDX6jh0/yiH5KFWrFdtGw0N9vgeAKPJ6nISGa+Jex0vqetaUdA==}
+  /@modern-js/plugin-router-v5@2.38.0(react-dom@18.0.0)(react@18.0.0):
+    resolution: {integrity: sha512-bx18OOeT4pPU1D5DuwI8VXbYnRypRD7nzg4nkT8nbhw/iWZU+NfjboIDbl/W2TVYmUQUGZIxgDZA4tSHUEMC7w==}
     peerDependencies:
       react: '>=17'
       react-dom: '>=17'
     dependencies:
-      '@modern-js/plugin': 2.35.0(react-dom@18.0.0)(react@18.0.0)
-      '@modern-js/types': 2.35.0
-      '@modern-js/utils': 2.35.0(react-dom@18.0.0)(react@18.0.0)
+      '@modern-js/plugin': 2.38.0
+      '@modern-js/types': 2.38.0
+      '@modern-js/utils': 2.38.0
       '@swc/helpers': 0.5.1
       '@types/history': 4.7.11
       '@types/react-router-dom': 5.3.3
@@ -4583,16 +4583,6 @@ packages:
       react: 18.0.0
       react-dom: 18.0.0(react@18.0.0)
       react-router-dom: 5.3.4(react@18.0.0)
-    dev: false
-
-  /@modern-js/plugin@2.35.0(react-dom@18.0.0)(react@18.0.0):
-    resolution: {integrity: sha512-L9i6xRCjmSN7/Z8Ybm9XmQX7mbMlugohsghWileyduICyI5t70iShT6XowRPiZy2IZk+hDLNSmxryjVDp4KyGA==}
-    dependencies:
-      '@modern-js/utils': 2.35.0(react-dom@18.0.0)(react@18.0.0)
-      '@swc/helpers': 0.5.1
-    transitivePeerDependencies:
-      - react
-      - react-dom
     dev: false
 
   /@modern-js/plugin@2.38.0:
@@ -4851,10 +4841,6 @@ packages:
     resolution: {integrity: sha512-14gDANG+RGBQ/6BfvWLbxWEOWhMUZipazOh0spsNQa1Uf/v2KaHOXxhZmCUg7I1u95rMwgSm/V0Hg/WtEUt94A==}
     dev: true
 
-  /@modern-js/types@2.35.0:
-    resolution: {integrity: sha512-pF4laMGdr1VrhV2EOh1ngW66X7SDofdCc3IEi7Pen0bEatrygm1Kwrb0Md9TSPkJesw+nCgZDcZQ/Eluf1c/Xg==}
-    dev: false
-
   /@modern-js/types@2.38.0:
     resolution: {integrity: sha512-ZvFMUwpNxr2YDdLp8J/RbEJsdfQFjDWsZFlwTMXh9K8cIlE2hfGymNmN5rNjgy1Fb44QQRBkird37WqfpgWlzg==}
 
@@ -4869,27 +4855,6 @@ packages:
     transitivePeerDependencies:
       - debug
     dev: true
-
-  /@modern-js/utils@2.35.0(react-dom@18.0.0)(react@18.0.0):
-    resolution: {integrity: sha512-8tLsSkZRModrnXwAxRFE5bqLWG+amNsRHgfLOmJPPftaB1WPCm2nPx4L3y/jBasI9DUWvleES41JvYaAwgGf8A==}
-    peerDependencies:
-      react: '>=17.0.0'
-      react-dom: '>=17.0.0'
-    peerDependenciesMeta:
-      react:
-        optional: true
-      react-dom:
-        optional: true
-    dependencies:
-      '@remix-run/router': 1.8.0
-      '@swc/helpers': 0.5.1
-      caniuse-lite: 1.0.30001547
-      lodash: 4.17.21
-      react: 18.0.0
-      react-dom: 18.0.0(react@18.0.0)
-      react-router-dom: 6.15.0(react-dom@18.0.0)(react@18.0.0)
-      serialize-javascript: 6.0.1
-    dev: false
 
   /@modern-js/utils@2.38.0:
     resolution: {integrity: sha512-shRDwZpo3ZitfRrZ0hFKSWmBd8XtfwwkCXxWAykkei+7TRkkCVFgRT8pazJnMtgwNml1kYNOnDCSMXcG/qwx/Q==}
