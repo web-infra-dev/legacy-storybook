@@ -15,7 +15,7 @@
     "modern",
     "modern.js"
   ],
-  "version": "2.38.0",
+  "version": "2.39.0",
   "jsnext:source": "./src/index.ts",
   "types": "./src/index.ts",
   "main": "./dist/cjs/index.js",
@@ -47,11 +47,11 @@
     "dev": "modern build --watch"
   },
   "dependencies": {
-    "@modern-js/builder": "2.38.0",
-    "@modern-js/builder-plugin-node-polyfill": "2.38.0",
-    "@modern-js/builder-shared": "2.38.0",
-    "@modern-js/builder-webpack-provider": "2.38.0",
-    "@modern-js/utils": "2.38.0",
+    "@modern-js/builder": "2.39.0",
+    "@modern-js/builder-plugin-node-polyfill": "2.39.0",
+    "@modern-js/builder-shared": "2.39.0",
+    "@modern-js/builder-webpack-provider": "2.39.0",
+    "@modern-js/utils": "2.39.0",
     "@storybook/addon-actions": "6.5.12",
     "@storybook/addon-essentials": "6.5.12",
     "@storybook/addon-links": "6.5.12",
@@ -101,5 +101,14 @@
     "access": "public",
     "provenance": true,
     "types": "./dist/types/index.d.ts"
+  },
+  "pnpm": {
+    "override": {
+      "@modern-js/builder": "2.38.0",
+      "@modern-js/builder-plugin-node-polyfill": "2.38.0",
+      "@modern-js/builder-shared": "2.38.0",
+      "@modern-js/builder-webpack-provider": "2.38.0",
+      "@modern-js/utils": "2.38.0"
+    }
   }
 }
