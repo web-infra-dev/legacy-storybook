@@ -22,7 +22,7 @@ jobs:
           pnpm i
           pnpm run build
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
-          pnpm publish
+          pnpm publish --no-git-checks
 
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
